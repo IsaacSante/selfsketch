@@ -1,0 +1,38 @@
+body {
+    font-family: GlacialIndifference-Regular;
+    src: url(GlacialIndifference-Regular.otf);
+    margin: 0;
+    padding: 0;
+    color: black;
+  }
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .time1{
+    font-size: 22em;
+    margin-top: 5%;
+    margin-left: 22%;
+    display: inline-block;
+    color: black;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    align-items: center;
+    position: absolute; 
+    z-index: 1000;
+    color:#0b1b5c;
+    mix-blend-mode: screen;
+  }
+ .p5Canvas{
+  position: fixed;
+  z-index:100000;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  margin: auto;
+ }
