@@ -22,11 +22,21 @@ body {
   left: 0;
   top: 0;
   margin-left: 15%;
+  /*
+    I think that using vw might make more sense here, since it
+    seems like you're trying to position based on the screen width
+  */
   max-width: 40%;
   transform: rotate(90deg);
 }
 
  .title{
+  /*
+   Perhaps this element could be styled with flexbox?
+   You'd have to have the flexbox container positioned absolute and span across the whole screen, but then
+   the title element inside could be aligned and justified to the center, and then just offset.
+   You can use transform: translate(); to offset an element, or with position: relative;
+  */
   height: 700px;
   left: 50%;
   margin-top: -350px;
@@ -38,6 +48,10 @@ body {
  }
 
  @keyframes rotation {
+  /*
+    Nice to see you using css keyframe animations.
+    I think that you can set the 0% keyframe to be 0deg, and the 100% to be 360deg, but it's not very important...
+  */
   50% {
     transform: rotate(180deg);
   }
