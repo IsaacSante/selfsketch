@@ -1,25 +1,32 @@
+/*
+  Make sure the indentation in your css is consistent as well.
+  All of the selectors should have the same level of indentation, with the css properties being
+  indented one tab further.
+*/
 body {
-    font-family: GlacialIndifference-Regular;
-    src: url(../pfonts/GlacialIndifference-Regular.otf);
-    margin: 0;
-    padding: 0;
-    color: black;
-    background: rgb(237,205,66);
-  }
-  .time1{
-    font-size: 22em;
-    margin-top: 5%;
-    margin-left: 22%;
-    display: inline-block;
-    color: black;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    align-items: center;
-    position: absolute; 
-    z-index: 1000;
-    color:#0b1b5c;
-    mix-blend-mode: screen;
-  }
+  font-family: GlacialIndifference-Regular;
+  src: url(../pfonts/GlacialIndifference-Regular.otf);
+  margin: 0;
+  padding: 0;
+  color: black;
+  background: rgb(237,205,66);
+}
+
+.time1 {
+  font-size: 22em;
+  margin-top: 5%;
+  margin-left: 22%;
+  display: inline-block;
+  color: black;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  align-items: center;
+  position: absolute;
+  z-index: 1000;
+  color:#0b1b5c;
+  mix-blend-mode: screen;
+}
+
  .p5Canvas{
   position: fixed;
   z-index:10;
