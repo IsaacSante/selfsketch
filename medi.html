@@ -8,8 +8,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
     <script src ="pscript/sketch_medi.js"></script>
     <title>WOKEAF</title>
+    <!--
+      I see that each page loads a different stylesheet. However, the individual stylesheets have a lot of repetition in terms of the
+      css properties that are applied there. I suggest you manage all of your project's styles in one css file. This way you can
+      define common styles once (which means you can change them in one place when you want to change your design).
+      For the styles that are different on each page, you can apply a class name on <body> or another outer div that wraps all of your content.
+      Then, you can apply page-specific things by selecting with this class name. You can also give element-specific class names and style accordingly.
+      This method of managing the styles helps in thinking about your whole project as having one design system.
+    -->
     <link rel="stylesheet" href="pstyles/styles_three.css">
-  </head>  
+  </head>
   <body>
     <video autoplay muted loop id="myVideo">
       <source src="videos/8mm.mp4" type="video/mp4">
